@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #1090cb;
+}
+
+.nav-btn {
+  background-color: var(--primary-color);
+}
+
+
+.home{
+    background-image: url(./images/Ellipse\ 5.png);
+    background-repeat: no-repeat;
+}
