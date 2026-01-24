@@ -2,12 +2,25 @@
   --primary-color: #1090cb;
 }
 
-.nav-btn {
+.blue-btn {
   background-color: var(--primary-color);
 }
 
+.text {
+  color: var(--primary-color);
+}
 
-.home{
-    background-image: url(./images/Ellipse\ 5.png);
-    background-repeat: no-repeat;
+.home {
+  background-image: url(./images/Ellipse\ 5.png);
+  background-repeat: no-repeat;
+  color: var(--primary-color) !important;
+}
+
+.hero {
+  background: linear-gradient(#1090cb29, white);
+}
+
+.hero-btn {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
