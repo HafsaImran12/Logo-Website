@@ -1,26 +1,83 @@
 :root {
   --primary-color: #1090cb;
+  --secondary-color: #1090cb1a;
+  --purple-color: #efeaff;
+  --green-color: #ecffda;
+  --blue-color: #dae6ff;
+  --orange-color: #ffe5da;
+  --grey-color: #969696;
+  --bear-green: #08d3bb;
+  --bear-purple: #9208d3;
 }
-
+.nav {
+  position: relative;
+  border-bottom: 0.7px solid #c4c4c45e;
+}
+.nav .ellipse {
+  position: absolute;
+  top: 15px;
+  right: 37rem;
+}
 .blue-btn {
   background-color: var(--primary-color);
 }
-
-.text {
+.blue-text {
   color: var(--primary-color);
 }
-
 .home {
-  background-image: url(./images/Ellipse\ 5.png);
-  background-repeat: no-repeat;
   color: var(--primary-color) !important;
 }
-
 .hero {
-  background: linear-gradient(#1090cb29, white);
+  background-color: var(--secondary-color);
+  position: relative;
 }
-
+.shade {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #fdffea 0%,
+    rgba(196, 196, 196, 0) 100%
+  );
+}
+.hero .leftimg {
+  position: absolute;
+  top: 28rem;
+  left: 0px;
+  width: 3rem;
+}
+.hero .rightimg {
+  position: absolute;
+  top: 18rem;
+  right: 0px;
+  width: 2.5rem;
+}
 .hero-btn {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+.cardimg1 {
+  background-color: var(--purple-color);
+}
+.cardimg2 {
+  background-color: var(--green-color);
+}
+.cardimg3 {
+  background-color: var(--blue-color);
+}
+.cardimg4 {
+  background-color: var(--orange-color);
+}
+.bear1 {
+  background-color: var(--bear-green);
+}
+
+@media screen and (max-width: 991px) {
+  .ellipse {
+    display: none !important;
+  }
+  .leftimg {
+    display: none;
+  }
+  .rightimg {
+    display: none;
+  }
 }
