@@ -97,7 +97,15 @@
 }
 .card2 {
   background-color: var(--primary-color);
+  position: relative;
 }
+.bell{
+  position: absolute;
+  top: -5rem;
+  left: 25rem;
+}
+
+
 
 @media screen and (max-width: 991px) {
   .ellipse {
@@ -114,5 +122,8 @@
   }
   .bear {
     display: none !important;
+  }
+  .bell{
+    display: none;
   }
 }
