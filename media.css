@@ -1,0 +1,20 @@
+@media screen and (max-width: 991px) {
+  .ellipse {
+    display: none !important;
+  }
+  .leftimg {
+    display: none;
+  }
+  .rightimg {
+    display: none;
+  }
+  .dottedline {
+    display: none;
+  }
+  .bear {
+    display: none !important;
+  }
+  .bell {
+    display: none;
+  }
+}
