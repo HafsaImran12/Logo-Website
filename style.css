@@ -8,6 +8,7 @@
   --grey-color: #969696;
   --bear-green: #08d3bb;
   --bear-purple: #9208d3;
+  --card-color: #f4f4f4;
 }
 .nav {
   position: relative;
@@ -20,6 +21,11 @@
 }
 .blue-btn {
   background-color: var(--primary-color);
+}
+.blue-btn:hover {
+  border: 1px solid var(--primary-color) !important;
+  background-color: white !important;
+  color: var(--primary-color) !important;
 }
 .blue-text {
   color: var(--primary-color);
@@ -69,6 +75,29 @@
 .bear1 {
   background-color: var(--bear-green);
 }
+.bear2 {
+  background-color: var(--primary-color);
+}
+.bear3 {
+  background-color: var(--bear-purple);
+}
+.printing {
+  position: relative;
+}
+.printing .dottedline {
+  position: absolute;
+  top: 365px;
+  left: -3rem;
+  width: 58%;
+  height: 59%;
+  z-index: -1;
+}
+.card1 {
+  background-color: var(--card-color);
+}
+.card2 {
+  background-color: var(--primary-color);
+}
 
 @media screen and (max-width: 991px) {
   .ellipse {
@@ -79,5 +108,11 @@
   }
   .rightimg {
     display: none;
+  }
+  .dottedline {
+    display: none;
+  }
+  .bear {
+    display: none !important;
   }
 }
