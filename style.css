@@ -9,6 +9,7 @@
   --bear-green: #08d3bb;
   --bear-purple: #9208d3;
   --card-color: #f4f4f4;
+  --form-background: #E8F4FA;
 }
 .nav {
   position: relative;
@@ -99,10 +100,49 @@
   background-color: var(--primary-color);
   position: relative;
 }
-.bell{
+.bell {
   position: absolute;
   top: -5rem;
-  left: 25rem;
+  left: 20rem;
+}
+.companies {
+  position: relative;
+}
+.companies .yellowshade {
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+}
+.form{
+  background-color: var(--form-background);
+}
+
+.form input{
+  box-shadow: 0px 4px 84px 0px #00000012;
+
 }
 
 
+@media screen and (max-width: 991px) {
+  .ellipse {
+    display: none !important;
+  }
+  .leftimg {
+    display: none;
+  }
+  .rightimg {
+    display: none;
+  }
+  .dottedline {
+    display: none;
+  }
+  .bear {
+    display: none !important;
+  }
+  .bell {
+    display: none;
+  }
+  .yellowshade{
+    display: none;
+  }
+}
