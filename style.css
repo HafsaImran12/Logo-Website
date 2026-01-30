@@ -9,7 +9,8 @@
   --bear-green: #08d3bb;
   --bear-purple: #9208d3;
   --card-color: #f4f4f4;
-  --form-background: #E8F4FA;
+  --form-background: #e8f4fa;
+  --footer-logo: #00329b;
 }
 .nav {
   position: relative;
@@ -45,9 +46,10 @@
     rgba(196, 196, 196, 0) 100%
   );
 }
+
 .hero .leftimg {
   position: absolute;
-  top: 28rem;
+  top: 20rem;
   left: 0px;
   width: 3rem;
 }
@@ -60,6 +62,9 @@
 .hero-btn {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+.mob-app {
+  padding: 0px 50px;
 }
 .cardimg1 {
   background-color: var(--purple-color);
@@ -100,6 +105,14 @@
   background-color: var(--primary-color);
   position: relative;
 }
+.cards {
+  position: relative;
+}
+.cards .pinkshade {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+}
 .bell {
   position: absolute;
   top: -5rem;
@@ -113,15 +126,24 @@
   left: 0px;
   z-index: -1;
 }
-.form{
+.form {
   background-color: var(--form-background);
 }
-
-.form input{
+.form input {
   box-shadow: 0px 4px 84px 0px #00000012;
-
 }
-
+.logo {
+  color: var(--footer-logo);
+}
+.socials {
+  color: black;
+  background-color: white;
+  padding: 10px 26px 10px 13px;
+  margin: 10px;
+  box-shadow: 0px 4px 14px 0px #00000026;
+  border-radius: 50%;
+  margin-top: 100px;
+}
 
 @media screen and (max-width: 991px) {
   .ellipse {
@@ -142,7 +164,10 @@
   .bell {
     display: none;
   }
-  .yellowshade{
+  .yellowshade {
+    display: none;
+  }
+  .pinkshade {
     display: none;
   }
 }

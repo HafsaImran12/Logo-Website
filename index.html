@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="bootstrap.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="media.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- navbar start -->
@@ -72,7 +79,7 @@
               loading="lazy"
             />
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 purpletext">
             <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-3">
               Experienced
               <span class="blue-text">mobile and web</span> applications and
@@ -150,7 +157,9 @@
             </div>
           </div>
           <!-- col4 -->
-          <div class="col d-flex justify-content-center align-items-center">
+          <div
+            class="col d-flex justify-content-center align-items-center mob-app px-md-2"
+          >
             <div class="cardimg4 p-3 rounded-4">
               <img src="./images/mob app.png" alt="mobile" />
             </div>
@@ -169,7 +178,7 @@
     <!-- printing sec start -->
     <div class="container-fluid">
       <div class="container printing">
-        <div class="px-4 py-5 my-5 text-center">
+        <div class="px-4 py-5 my-sm-5 text-center">
           <h2 class="text-body-emphasis">
             Lorem Ipsum is simply dummy text of the printing.
           </h2>
@@ -227,7 +236,7 @@
         <div
           class="row flex-lg-row justify-content-center align-items-center g-5 py-5"
         >
-          <div class="col-12 col-sm-8 col-lg-6">
+          <div class="shade col-12 col-sm-8 col-lg-6">
             <img
               src="./images/webpages.png"
               class="d-block mx-lg-auto img-fluid"
@@ -304,40 +313,45 @@
     <!-- printing sec end -->
 
     <!-- card sec start -->
-    <div class="container py-3 py-lg-5">
-      <div class="row px-4 px-sm-0">
-        <!-- col1 -->
-        <div class="col-sm-6 mb-3 mb-sm-0 px-xl-5">
-          <div class="card text-center card1 border-0">
-            <div class="card-body p-lg-4 p-xl-5">
-              <h3 class="card-title px-lg-5 pb-3">
-                Lorem Ipsum is simply dummy text.
-              </h3>
-              <p class="card-text">
-                KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and
-                web applications and website builders measuring dozens of
-                completed projects. We build and develop mobile applications for
-                several top platforms, including Android & IOS.
-              </p>
-              <a href="#" class="btn blue-btn text-light mt-3">View More</a>
+    <div class="container-fluid cards">
+      <div class="pinkshade">
+        <img src="./images/pink shade.png" alt="pink shade" />
+      </div>
+      <div class="container py-3 py-lg-5">
+        <div class="row px-4 px-sm-0">
+          <!-- col1 -->
+          <div class="col-sm-6 mb-3 mb-sm-0 px-xl-5">
+            <div class="card text-center card1 border-0">
+              <div class="card-body p-lg-4 p-xl-5">
+                <h3 class="card-title px-lg-5 pb-3">
+                  Lorem Ipsum is simply dummy text.
+                </h3>
+                <p class="card-text">
+                  KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and
+                  web applications and website builders measuring dozens of
+                  completed projects. We build and develop mobile applications
+                  for several top platforms, including Android & IOS.
+                </p>
+                <a href="#" class="btn blue-btn text-light mt-3">View More</a>
+              </div>
             </div>
           </div>
-        </div>
-        <!-- col2 -->
-        <div class="col-sm-6 mb-3 mb-sm-0 px-xl-5">
-          <div class="card text-center text-light card2 border-0">
-            <div class="card-body p-lg-4 p-xl-5">
-              <img src="./images/bell.png" class="bell" alt="bell" />
-              <h3 class="card-title px-lg-5 pb-3">
-                Lorem Ipsum is simply dummy text.
-              </h3>
-              <p class="card-text">
-                KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and
-                web applications and website builders measuring dozens of
-                completed projects. We build and develop mobile applications for
-                several top platforms, including Android & IOS.
-              </p>
-              <a href="#" class="btn bg-light mt-3">View More</a>
+          <!-- col2 -->
+          <div class="col-sm-6 mb-3 mb-sm-0 px-xl-5">
+            <div class="card text-center text-light card2 border-0">
+              <div class="card-body p-lg-4 p-xl-5">
+                <img src="./images/bell.png" class="bell" alt="bell" />
+                <h3 class="card-title px-lg-5 pb-3">
+                  Lorem Ipsum is simply dummy text.
+                </h3>
+                <p class="card-text">
+                  KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and
+                  web applications and website builders measuring dozens of
+                  completed projects. We build and develop mobile applications
+                  for several top platforms, including Android & IOS.
+                </p>
+                <a href="#" class="btn bg-light mt-3">View More</a>
+              </div>
             </div>
           </div>
         </div>
@@ -380,7 +394,9 @@
                   placeholder="Enter your email"
                 />
                 <span class="input-group-btn bg-dark ms-3 rounded-2">
-                  <button class="btn text-light" type="submit">Subscribe</button>
+                  <button class="btn text-light" type="submit">
+                    Subscribe
+                  </button>
                 </span>
               </div>
             </div>
@@ -389,6 +405,65 @@
       </div>
     </div>
     <!-- card sec end -->
+
+    <!-- footer start -->
+    <div class="container">
+      <footer
+        class="row row-cols-1 row-cols-sm-2 pt-5 mt-5 text-center text-md-start"
+      >
+        <!-- col1 -->
+        <div class="col-md-4 mb-3">
+          <h5 class="logo fw-bold">LOGO</h5>
+          <p class="me-lg-5 pe-lg-5 py-3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <p>@Lorem</p>
+        </div>
+        <!-- col2 -->
+        <div class="col-md-2 mb-3">
+          <h5>About us</h5>
+          <ul class="nav flex-column border-0">
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Lorem</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Portfolio
+              </a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary">Careers</a>
+            </li>
+            <li class="nav-item mb-2">
+              <a href="#" class="nav-link p-0 text-body-secondary"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- col3 -->
+        <div class="col-md-3 mb-3">
+          <h5>Contact us</h5>
+          <p class="py-3">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <p>+908 89097 890</p>
+        </div>
+        <!-- col4 -->
+        <div class="col-md-3 text-sm-end">
+          <i class="fa-brands fa-instagram socials"></i>
+          <i class="fa-brands fa-linkedin-in socials"></i>
+          <i class="fa-brands fa-twitter socials"></i>
+          <i class="fa-brands fa-facebook-f socials"></i>
+        </div>
+      </footer>
+      <p class="text-body-secondary text-center pt-3 border-top mt-5 mt-sm-0">
+        Copyright ® 2026 Lorem All rights Rcerved
+      </p>
+    </div>
+    <!-- footer end -->
 
     <script src="bootstrap.js"></script>
   </body>
