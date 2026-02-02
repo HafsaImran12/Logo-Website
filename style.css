@@ -51,19 +51,19 @@
   color: var(--primary-color);
   background-color: white;
 }
-.hero-btn:hover{
+.hero-btn:hover {
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);  
+  border: 1px solid var(--primary-color);
 }
 .mob-app {
   padding: 0px 27px;
 }
-.purpleshade{
+.purpleshade {
   top: 0%;
   left: 0%;
   z-index: -1;
 }
-.purple{
+.purple {
   top: 15%;
   right: 0rem;
   opacity: 0.5;
@@ -97,8 +97,8 @@
   position: absolute;
   top: 365px;
   left: -3rem;
-  width: 58%;
-  height: 59%;
+  width: 59%;
+  height: 58%;
   z-index: -1;
 }
 .card1 {
@@ -165,10 +165,13 @@
   .pinkshade {
     display: none;
   }
-  .purpleshade{
+  .purpleshade {
     display: none;
   }
-  .purple{
+  .purple {
+    display: none;
+  }
+  .pink {
     display: none;
   }
 }
