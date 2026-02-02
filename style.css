@@ -46,25 +46,28 @@
     rgba(196, 196, 196, 0) 100%
   );
 }
-
-.hero .leftimg {
-  position: absolute;
-  top: 20rem;
-  left: 0px;
-  width: 3rem;
-}
-.hero .rightimg {
-  position: absolute;
-  top: 18rem;
-  right: 0px;
-  width: 2.5rem;
-}
 .hero-btn {
-  color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  background-color: white;
+}
+.hero-btn:hover{
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);  
 }
 .mob-app {
-  padding: 0px 50px;
+  padding: 0px 27px;
+}
+.purpleshade{
+  top: 0%;
+  left: 0%;
+  z-index: -1;
+}
+.purple{
+  top: 15%;
+  right: 0rem;
+  opacity: 0.5;
+  z-index: 1;
 }
 .cardimg1 {
   background-color: var(--purple-color);
@@ -104,14 +107,6 @@
 .card2 {
   background-color: var(--primary-color);
   position: relative;
-}
-.cards {
-  position: relative;
-}
-.cards .pinkshade {
-  position: absolute;
-  right: 0px;
-  top: 20px;
 }
 .bell {
   position: absolute;
@@ -168,6 +163,12 @@
     display: none;
   }
   .pinkshade {
+    display: none;
+  }
+  .purpleshade{
+    display: none;
+  }
+  .purple{
     display: none;
   }
 }
